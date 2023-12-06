@@ -10,4 +10,8 @@ public class ColorButton : MonoBehaviour
         GetComponent<Button>().onClick.AddListener(delegate () { GetComponent<Image>().color = Random.ColorHSV(); });
     }
 
+    void SayHi()
+    {
+        Debug.Log("Coucou");
+    }
 }
